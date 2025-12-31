@@ -7,7 +7,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
-url: https://yourname.github.io
+url: https://wyylucky.github.io
 root: /
 permalink: posts/:abbrlink.html
 abbrlink:
@@ -20,6 +20,9 @@ public_dir: public
 tag_dir: tags
 category_dir: categories
 archive_dir: archives
+
+# Theme
+theme: butterfly
 
 # Writing
 new_post_name: :title.md
@@ -39,5 +42,5 @@ skip_render:
 # Deployment
 deploy:
   type: git
-  repo: git@github.com:yourname/yourname.github.io.git
+  repo: git@github.com:wyylucky/wyylucky.github.io.git
   branch: master

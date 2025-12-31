@@ -1,0 +1,26 @@
+# Butterfly 主题配置
+
+# 导航栏配置
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+  CTF 题解: /categories/CTF/ || fas fa-flag
+  漏洞分析: /categories/Vulnerability-Analysis/ || fas fa-bug
+
+# 代码块配置
+# 注意：Butterfly 内置主题名称为 mac，而不是 macos
+highlight_theme: mac  # 代码高亮主题
+code_word_wrap: true
+
+# 安全提醒
+notice:
+  enable: true
+  content: "⚠️ 本站所有内容仅供学习与技术研究交流，请勿用于任何未授权测试或非法用途，否则后果自负。"
+
+# 本地搜索配置
+local_search:
+  enable: true
+  preload: true
